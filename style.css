@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    margin-top: 70px;
+    max-width: 300px;
+    font-weight: 200;
+}
+
+button{
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    padding: 10px 0;
+    text-align: center;
+    width: 200px;
+    margin: 3px;
+    /*display: flex;*/
+}
+
+#value{
+    background-color: rgba(38,50,56,0.8);
+    color: #c4c4c4;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 200px;
+    font-weight: 200;
+}
+
+#multiplication{
+    background-color: #297EAF;
+}
+
+#minus{
+    background-color: #263238;
+}
+
+#plus{
+    background-color: #29af6f;
+}
+
+#division{
+    background-color: #3b275c;
+}
+
+h2{
+    margin-top: 75px;
+}
