@@ -6,23 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>calculator</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html>
-    <head>
-        <title>forms</title>
-    </head>
     <body>
-<form name="calculator">
-    <h1 id="result">34</h1>
-    <p id="reference">last used: Added 40</p>
+    
+    <h1 id="result"></h1>
+    <p> Last used: <span id="reference">Added 40</span></p>
     <h2>Hey! Welcome</h2>
     <p>You can add, multipy,divide and subtract values using the buttons below</p>
-    <input type="number" placeholder="Enter number" id="value" required>
+<form action="#" name="calculator">
+    <input placeholder="Enter number" id="value" required>
     <button id="multiplication" onclick="multiply()">Multiply</button>
     <button id="minus" onclick="subtract()">Subtract</button>
-    <button id="plus" onclick="Add()">Add</button>
+    <button id="plus" onclick="add()">Add</button>
     <button id="division" onclick="divide()">Divide</button>
 </form>
 </body>
